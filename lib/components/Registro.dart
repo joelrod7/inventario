@@ -70,8 +70,8 @@ class _RegistrarState extends State<Registrar> {
                   TextFormField(
                     controller: cntNombre,
                     decoration: InputDecoration(
-                      labelText: "Nombres",
-                      prefixIcon: Icon(Icons.person),
+                      labelText: "Nombre",
+                      prefixIcon: Icon(Icons.backpack_rounded, color: Colors.blue.shade200,),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(20),
                       ),
@@ -89,7 +89,7 @@ class _RegistrarState extends State<Registrar> {
                     controller: cntPrecio,
                     decoration: InputDecoration(
                       labelText: "Precio",
-                      prefixIcon: Icon(Icons.attach_money),
+                      prefixIcon: Icon(Icons.attach_money, color: Colors.green.shade200,),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(20),
                       ),
@@ -108,7 +108,7 @@ class _RegistrarState extends State<Registrar> {
                     controller: cntDesc,
                     decoration: InputDecoration(
                       labelText: "Descripción",
-                      prefixIcon: Icon(Icons.description),
+                      prefixIcon: Icon(Icons.description, color: Colors.blueGrey.shade200,),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(20),
                       ),
@@ -126,7 +126,7 @@ class _RegistrarState extends State<Registrar> {
                     controller: cntCantidad,
                     decoration: InputDecoration(
                       labelText: "Cantidad",
-                      prefixIcon: Icon(Icons.add_shopping_cart),
+                      prefixIcon: Icon(Icons.add_shopping_cart, color: Colors.blueGrey.shade200),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(20),
                       ),
